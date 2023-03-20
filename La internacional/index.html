@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+	<!-- ------------Splide------- -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+	<link rel="stylesheet" href="url-to-cdn/splide.min.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La internacional</title>
+    <!-- ------------------Bootsrap---------- -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+    crossorigin="anonymous"
+  />
+    <!-- ----------------------CSS------------- -->
+
+    <link rel="stylesheet" href="estilo.css"/>
+
+    <!-- ----------------Required Links ------------------------ -->
+    <script src="https://kit.fontawesome.com/97350da7f1.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="./assets/media/Bootstrap_logo.svg.png">
+</head>
+<body>
+	<!-- -----Script Bootstrap------ -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+
+
+<!-- --------Barra de Navegacion--------------- -->
+    <nav class="navbar navbar-expand-lg nav-color">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="./assets/media/Bootstrap_logo.svg.png" alt="logonav" class="navlogo">
+        </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                
+                <a class="nav-link" aria-current="page" href="./index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Catálogo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+              <a href="#"><i class="fa-solid fa-user"></i></a>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- ---------Banner Hero  --------- -->
+
+<section id="hero">
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/media/hero1.png" class="d-block w-100 imgHero" alt="hero1">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/media/hero2.png" class="d-block w-100 imgHero" alt="hero2">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/media/hero3.png" class="d-block w-100 imgHero" alt="hero3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</section>
+<!-- ------------lo mas vendido ------------------ -->
+
+<section id="lo-mas-vendido">
+    <h1 class="ttl-loMas"><i>LO MAS VENDIDO</i></h1>
+    <div id="carouselExample2" class="carousel slide show-res">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/media/cerveza.jpg" class="d-block w-100 imgRes" alt="hero1">
+          <div class="descripcion-item">
+            <h5 class="card-title">Título de la card</h5>
+          <p class="card-text">Descripción de la card.</p>
+          <a href="#" class="btn btn-primary">Ver más</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/media/chips.png" class="d-block w-100 imgRes" alt="hero2">
+          <div class="descripcion-item">
+            <h5 class="card-title">Título de la card</h5>
+          <p class="card-text">Descripción de la card.</p>
+          <a href="#" class="btn btn-primary">Ver más</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/media/Corn_Flakes.jpg" class="d-block w-100 imgRes" alt="hero3">
+          <div class="descripcion-item">
+            <h5 class="card-title">Título de la card</h5>
+          <p class="card-text">Descripción de la card.</p>
+          <a href="#" class="btn btn-primary">Ver más</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/media/electrolit.png" class="d-block w-100 imgRes" alt="hero3">
+          <div class="descripcion-item">
+            <h5 class="card-title">Título de la card</h5>
+          <p class="card-text">Descripción de la card.</p>
+          <a href="#" class="btn btn-primary">Ver más</a>
+          </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/media/cerveza.jpg" class="d-block w-100 imgRes" alt="hero1">
+            <div class="descripcion-item">
+              <h5 class="card-title">Título de la card</h5>
+            <p class="card-text">Descripción de la card.</p>
+            <a href="#" class="btn btn-primary">Ver más</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/media/chips.png" class="d-block w-100 imgRes" alt="hero2">
+            <div class="descripcion-item">
+              <h5 class="card-title">Título de la card</h5>
+            <p class="card-text">Descripción de la card.</p>
+            <a href="#" class="btn btn-primary">Ver más</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/media/Corn_Flakes.jpg" class="d-block w-100 imgRes" alt="hero3">
+            <div class="descripcion-item">
+              <h5 class="card-title">Título de la card</h5>
+            <p class="card-text">Descripción de la card.</p>
+            <a href="#" class="btn btn-primary">Ver más</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/media/electrolit.png" class="d-block w-100 imgRes" alt="hero3">
+            <div class="descripcion-item">
+              <h5 class="card-title">Título de la card</h5>
+            <p class="card-text">Descripción de la card.</p>
+            <a href="#" class="btn btn-primary">Ver más</a>
+            </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/media/cerveza.jpg" class="d-block w-100 imgRes" alt="hero1">
+              <div class="descripcion-item">
+                <h5 class="card-title">Título de la card</h5>
+              <p class="card-text">Descripción de la card.</p>
+              <a href="#" class="btn btn-primary">Ver más</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/media/chips.png" class="d-block w-100 imgRes" alt="hero2">
+              <div class="descripcion-item">
+                <h5 class="card-title">Título de la card</h5>
+              <p class="card-text">Descripción de la card.</p>
+              <a href="#" class="btn btn-primary">Ver más</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/media/Corn_Flakes.jpg" class="d-block w-100 imgRes" alt="hero3">
+              <div class="descripcion-item">
+                <h5 class="card-title">Título de la card</h5>
+              <p class="card-text">Descripción de la card.</p>
+              <a href="#" class="btn btn-primary">Ver más</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/media/electrolit.png" class="d-block w-100 imgRes" alt="hero3">
+              <div class="descripcion-item">
+                <h5 class="card-title">Título de la card</h5>
+              <p class="card-text">Descripción de la card.</p>
+              <a href="#" class="btn btn-primary">Ver más</a>
+              </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/media/cerveza.jpg" class="d-block w-100 imgRes" alt="hero1">
+                <div class="descripcion-item">
+                  <h5 class="card-title">Título de la card</h5>
+                <p class="card-text">Descripción de la card.</p>
+                <a href="#" class="btn btn-primary">Ver más</a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/media/chips.png" class="d-block w-100 imgRes" alt="hero2">
+                <div class="descripcion-item">
+                  <h5 class="card-title">Título de la card</h5>
+                <p class="card-text">Descripción de la card.</p>
+                <a href="#" class="btn btn-primary">Ver más</a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/media/Corn_Flakes.jpg" class="d-block w-100 imgRes" alt="hero3">
+                <div class="descripcion-item">
+                  <h5 class="card-title">Título de la card</h5>
+                <p class="card-text">Descripción de la card.</p>
+                <a href="#" class="btn btn-primary">Ver más</a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/media/electrolit.png" class="d-block w-100 imgRes" alt="hero3">
+                <div class="descripcion-item">
+                  <h5 class="card-title">Título de la card</h5>
+                <p class="card-text">Descripción de la card.</p>
+                <a href="#" class="btn btn-primary">Ver más</a>
+                </div>
+                </div>  
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div id="myCarousel" class="carousel slide hide-res" data-ride="carousel">
+        <!-- Slides -->
+        <div class="carousel-inner">
+          <div class="carousel-item col-12 active">
+            <div class="row">
+              <!-- Agrega tus 4 cards aquí -->
+              <div class="col-12 col-md-3">
+                <div class="card">
+                  <img src="./assets/media/cerveza.jpg" class="card-img-top" alt="cerveza">
+                  <div class="card-body">
+                    <h5 class="card-title">Título de la card</h5>
+                    <p class="card-text">Descripción de la card.</p>
+                    <a href="#" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-3">
+                <div class="card">
+                  <img src="./assets/media/chips.png" class="card-img-top" alt="chips">
+                  <div class="card-body">
+                    <h5 class="card-title">Título de la card</h5>
+                    <p class="card-text">Descripción de la card.</p>
+                    <a href="#" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-3">
+                <div class="card">
+                  <img src="./assets/media/electrolit.png" class="card-img-top" alt="electrolit">
+                  <div class="card-body">
+                    <h5 class="card-title">Título de la card</h5>
+                    <p class="card-text">Descripción de la card.</p>
+                    <a href="#" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-3">
+                <div class="card">
+                  <img src="./assets/media/Corn_Flakes.jpg" class="card-img-top" alt="Corn_Flakes">
+                  <div class="card-body">
+                    <h5 class="card-title">Título de la card</h5>
+                    <p class="card-text">Descripción de la card.</p>
+                    <a href="#" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <!-- Agrega tus 4 cards aquí -->
+              <div class="col-md-3">
+                <div class="card">
+                  <img src="./assets/media/Corn_Flakes.jpg" class="card-img-top" alt="Corn_Flakes">
+                  <div class="card-body">
+                    <h5 class="card-title">Título de la card</h5>
+                    <p class="card-text">Descripción de la card.</p>
+                    <a href="#" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card">
+                  <img src="./assets/media/chips.png" class="card-img-top" alt="chips">
+                  <div class="card-body">
+                    <h5 class="card-title">Título de la card</h5>
+                    <p class="card-text">Descripción de la card.</p>
+                    <a href="#" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card">
+                  <img src="./assets/media/cerveza.jpg" class="card-img-top" alt="cerveza">
+                  <div class="card-body">
+                    <h5 class="card-title">Título de la card</h5>
+                    <p class="card-text">Descripción de la card.</p>
+                    <a href="#" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card">
+                  <img src="./assets/media/electrolit.png" class="card-img-top" alt="electrolit">
+                  <div class="card-body">
+                    <h5 class="card-title">card 8</h5>
+                    <p class="card-text">Descripción de la card.</p>
+                    <a href="#" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <!-- Agrega tus 4 cards aquí -->
+              <div class="col-md-3">
+                <div class="card">
+                  <img src="./assets/media/electrolit.png" class="card-img-top" alt="electrolit">
+                  <div class="card-body">
+                    <h5 class="card-title">Título de la card</h5>
+                    <p class="card-text">Descripción de la card.</p>
+                    <a href="#" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div><div class="col-md-3">
+                <div class="card">
+                  <img src="./assets/media/cerveza.jpg" class="card-img-top" alt="cerveza">
+                  <div class="card-body">
+                    <h5 class="card-title">Título de la card</h5>
+                    <p class="card-text">Descripción de la card.</p>
+                    <a href="#" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div><div class="col-md-3">
+                <div class="card">
+                  <img src="./assets/media/chips.png" class="card-img-top" alt="chips">
+                  <div class="card-body">
+                    <h5 class="card-title">Título de la card</h5>
+                    <p class="card-text">Descripción de la card.</p>
+                    <a href="#" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div><div class="col-md-3">
+                <div class="card">
+                  <img src="./assets/media/Corn_Flakes.jpg" class="card-img-top" alt="Corn_Flakes">
+                  <div class="card-body">
+                    <h5 class="card-title">Título de la card</h5>
+                    <p class="card-text">Descripción de la card.</p>
+                    <a href="#" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <!-- Agrega tus 4 cards aquí -->
+              <div class="col-md-3">
+                <div class="card">
+                  <img src="./assets/media/chips.png" class="card-img-top" alt="chips">
+                  <div class="card-body">
+                    <h5 class="card-title">Título de la card</h5>
+                    <p class="card-text">Descripción de la card.</p>
+                    <a href="#" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div><div class="col-md-3">
+                <div class="card">
+                  <img src="./assets/media/cerveza.jpg" class="card-img-top" alt="cerveza">
+                  <div class="card-body">
+                    <h5 class="card-title">Título de la card</h5>
+                    <p class="card-text">Descripción de la card.</p>
+                    <a href="#" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div><div class="col-md-3">
+                <div class="card">
+                  <img src="./assets/media/electrolit.png" class="card-img-top" alt="electrolit">
+                  <div class="card-body">
+                    <h5 class="card-title">Título de la card</h5>
+                    <p class="card-text">Descripción de la card.</p>
+                    <a href="#" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div><div class="col-md-3">
+                <div class="card">
+                  <img src="./assets/media/Corn_Flakes.jpg" class="card-img-top" alt="Corn_Flakes">
+                  <div class="card-body">
+                    <h5 class="card-title">Título de la card</h5>
+                    <p class="card-text">Descripción de la card.</p>
+                    <a href="#" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</section>
+<!-- --------Nosotros ------------- -->
+
+<section id="nosotros">
+<div class="container-fluid nosotros">
+    <div class="row">
+      <div class="col-lg-6 col-md-12">
+        <h1><i>Nosotros</i></h1>
+        <p class="bigger">Lorem ipsum dolor sit,  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus doloribus dolor iusto quaerat consectetur iste sapiente ipsum. Accusantium temporibus tenetur ut cum eveniet maxime rem inventore facere, voluptate veniam dolores? amet consectetur adipisicing elit. Minus accusamus culpa laudantium, sunt perferendis quam voluptates vero adipisci dolore accusantium consequuntur provident, ullam eligendi amet? Blanditiis excepturi odio magni explicabo.</p>
+      </div>
+      <div class="col-lg-6 col-md-12 nosotros-derecha">
+        <img src="./assets/media/dulceria.jpg" alt="dulceria" class="nosotros-img">
+      </div>
+    </div>
+</div>
+</section>
+<!-- --------------Catálogo----------------------- -->
+
+<section id="catalogo">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <h3 class="ttl-catalogo">Catálogo</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 contenedor-items">
+        <div class="items golosinas">
+          <p class="fondo">Golosinas</p>
+        </div>
+        <div class="items frituras">
+          <p class="fondo">Frituras</p>
+        </div>
+        <div class="items bebidas">
+          <p class="fondo">Bebidas</p>
+        </div>
+        <div class="items cereales">
+          <p class="fondo">Cereales</p>
+        </div>
+        <div class="items extras">
+          <p class="fondo">Extras</p>
+        </div>
+      </div>
+    </div>
+    <div class="row btn-cont">
+      <button type="button" class="btn btn-primary">Ver más</button>
+    </div>
+    <div class="row grey">
+    </div>
+  </div>
+</section>
+
+<!-- -----------comprar en linea ----------------- -->
+
+<section id="comprar-en-linea">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 en-linea">
+        <h3 class="en-linea">
+         <i>¿Cómo comprar en línea?</i>
+         </h3>
+      </div>
+    </div>
+    <div class="row">
+        <div class="col-12 col-lg-3 pasos-comprar">
+          <img src="./assets/media/paso1.png" alt="paso1" class="img-comprar">
+          <p>1</p>
+          <p class="tamaño-res">Añade al Carrito los productos que desee y haz click en finalizar pedido.</p>
+        </div>
+        <div class="col-12 col-lg-3 pasos-comprar">
+          <img src="./assets/media/paso2.png" alt="paso2" class="img-comprar">
+          <p>2</p>
+          <p class="tamaño-res">Crea una cuenta registrando tus datos y domicilio.</p>
+        </div>
+        <div class="col-12 col-lg-3 pasos-comprar">
+          <img src="./assets/media/paso3.png" alt="paso3" class="img-comprar">
+          <p>3</p>
+          <p class="tamaño-res">Selecciona el método de pago que desees y verifica el monto total.</p>
+        </div>
+        <div class="col-12 col-lg-3 pasos-comprar">
+          <img src="./assets/media/paso4.png" alt="paso4" class="img-comprar">
+          <p>4</p>
+          <p class="tamaño-res">Confirma tu orden, rastrea tu pedido y disfruta tus productos.</p>
+        </div>
+    </div>
+    <div class="row grey">
+    </div>
+  </div>
+</section>
+<!-- ------------lo mas vendido ------------------ -->
+
+<section id="lo-mas-vendido">
+  <h1 class="ttl-loMas"><i>LO MAS VENDIDO</i></h1>
+  <div id="carouselExample3" class="carousel slide show-res">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./assets/media/cerveza.jpg" class="d-block w-100 imgRes" alt="hero1">
+        <div class="descripcion-item">
+          <h5 class="card-title">Título de la card</h5>
+        <p class="card-text">Descripción de la card.</p>
+        <a href="#" class="btn btn-primary">Ver más</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/media/chips.png" class="d-block w-100 imgRes" alt="hero2">
+        <div class="descripcion-item">
+          <h5 class="card-title">Título de la card</h5>
+        <p class="card-text">Descripción de la card.</p>
+        <a href="#" class="btn btn-primary">Ver más</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/media/Corn_Flakes.jpg" class="d-block w-100 imgRes" alt="hero3">
+        <div class="descripcion-item">
+          <h5 class="card-title">Título de la card</h5>
+        <p class="card-text">Descripción de la card.</p>
+        <a href="#" class="btn btn-primary">Ver más</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/media/electrolit.png" class="d-block w-100 imgRes" alt="hero3">
+        <div class="descripcion-item">
+          <h5 class="card-title">Título de la card</h5>
+        <p class="card-text">Descripción de la card.</p>
+        <a href="#" class="btn btn-primary">Ver más</a>
+        </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/media/cerveza.jpg" class="d-block w-100 imgRes" alt="hero1">
+          <div class="descripcion-item">
+            <h5 class="card-title">Título de la card</h5>
+          <p class="card-text">Descripción de la card.</p>
+          <a href="#" class="btn btn-primary">Ver más</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/media/chips.png" class="d-block w-100 imgRes" alt="hero2">
+          <div class="descripcion-item">
+            <h5 class="card-title">Título de la card</h5>
+          <p class="card-text">Descripción de la card.</p>
+          <a href="#" class="btn btn-primary">Ver más</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/media/Corn_Flakes.jpg" class="d-block w-100 imgRes" alt="hero3">
+          <div class="descripcion-item">
+            <h5 class="card-title">Título de la card</h5>
+          <p class="card-text">Descripción de la card.</p>
+          <a href="#" class="btn btn-primary">Ver más</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/media/electrolit.png" class="d-block w-100 imgRes" alt="hero3">
+          <div class="descripcion-item">
+            <h5 class="card-title">Título de la card</h5>
+          <p class="card-text">Descripción de la card.</p>
+          <a href="#" class="btn btn-primary">Ver más</a>
+          </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/media/cerveza.jpg" class="d-block w-100 imgRes" alt="hero1">
+            <div class="descripcion-item">
+              <h5 class="card-title">Título de la card</h5>
+            <p class="card-text">Descripción de la card.</p>
+            <a href="#" class="btn btn-primary">Ver más</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/media/chips.png" class="d-block w-100 imgRes" alt="hero2">
+            <div class="descripcion-item">
+              <h5 class="card-title">Título de la card</h5>
+            <p class="card-text">Descripción de la card.</p>
+            <a href="#" class="btn btn-primary">Ver más</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/media/Corn_Flakes.jpg" class="d-block w-100 imgRes" alt="hero3">
+            <div class="descripcion-item">
+              <h5 class="card-title">Título de la card</h5>
+            <p class="card-text">Descripción de la card.</p>
+            <a href="#" class="btn btn-primary">Ver más</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/media/electrolit.png" class="d-block w-100 imgRes" alt="hero3">
+            <div class="descripcion-item">
+              <h5 class="card-title">Título de la card</h5>
+            <p class="card-text">Descripción de la card.</p>
+            <a href="#" class="btn btn-primary">Ver más</a>
+            </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/media/cerveza.jpg" class="d-block w-100 imgRes" alt="hero1">
+              <div class="descripcion-item">
+                <h5 class="card-title">Título de la card</h5>
+              <p class="card-text">Descripción de la card.</p>
+              <a href="#" class="btn btn-primary">Ver más</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/media/chips.png" class="d-block w-100 imgRes" alt="hero2">
+              <div class="descripcion-item">
+                <h5 class="card-title">Título de la card</h5>
+              <p class="card-text">Descripción de la card.</p>
+              <a href="#" class="btn btn-primary">Ver más</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/media/Corn_Flakes.jpg" class="d-block w-100 imgRes" alt="hero3">
+              <div class="descripcion-item">
+                <h5 class="card-title">Título de la card</h5>
+              <p class="card-text">Descripción de la card.</p>
+              <a href="#" class="btn btn-primary">Ver más</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/media/electrolit.png" class="d-block w-100 imgRes" alt="hero3">
+              <div class="descripcion-item">
+                <h5 class="card-title">Título de la card</h5>
+              <p class="card-text">Descripción de la card.</p>
+              <a href="#" class="btn btn-primary">Ver más</a>
+              </div>
+              </div>  
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample3" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample3" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div id="myCarousel2" class="carousel slide car2 hide-res" data-ride="carousel">
+      <!-- Slides -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <!-- Agrega tus 4 cards aquí -->
+            <div class="col-md-3">
+              <div class="card">
+                <img src="./assets/media/cerveza.jpg" class="card-img-top" alt="cerveza">
+                <div class="card-body">
+                  <h5 class="card-title">Título de la card</h5>
+                  <p class="card-text">Descripción de la card.</p>
+                  <a href="#" class="btn btn-primary">Ver más</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="./assets/media/chips.png" class="card-img-top" alt="chips">
+                <div class="card-body">
+                  <h5 class="card-title">Título de la card</h5>
+                  <p class="card-text">Descripción de la card.</p>
+                  <a href="#" class="btn btn-primary">Ver más</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="./assets/media/electrolit.png" class="card-img-top" alt="electrolit">
+                <div class="card-body">
+                  <h5 class="card-title">Título de la card</h5>
+                  <p class="card-text">Descripción de la card.</p>
+                  <a href="#" class="btn btn-primary">Ver más</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="./assets/media/Corn_Flakes.jpg" class="card-img-top" alt="Corn_Flakes">
+                <div class="card-body">
+                  <h5 class="card-title">Título de la card</h5>
+                  <p class="card-text">Descripción de la card.</p>
+                  <a href="#" class="btn btn-primary">Ver más</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <!-- Agrega tus 4 cards aquí -->
+            <div class="col-md-3">
+              <div class="card">
+                <img src="./assets/media/Corn_Flakes.jpg" class="card-img-top" alt="Corn_Flakes">
+                <div class="card-body">
+                  <h5 class="card-title">Título de la card</h5>
+                  <p class="card-text">Descripción de la card.</p>
+                  <a href="#" class="btn btn-primary">Ver más</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="./assets/media/chips.png" class="card-img-top" alt="chips">
+                <div class="card-body">
+                  <h5 class="card-title">Título de la card</h5>
+                  <p class="card-text">Descripción de la card.</p>
+                  <a href="#" class="btn btn-primary">Ver más</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="./assets/media/cerveza.jpg" class="card-img-top" alt="cerveza">
+                <div class="card-body">
+                  <h5 class="card-title">Título de la card</h5>
+                  <p class="card-text">Descripción de la card.</p>
+                  <a href="#" class="btn btn-primary">Ver más</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="./assets/media/electrolit.png" class="card-img-top" alt="electrolit">
+                <div class="card-body">
+                  <h5 class="card-title">card 8</h5>
+                  <p class="card-text">Descripción de la card.</p>
+                  <a href="#" class="btn btn-primary">Ver más</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <!-- Agrega tus 4 cards aquí -->
+            <div class="col-md-3">
+              <div class="card">
+                <img src="./assets/media/electrolit.png" class="card-img-top" alt="electrolit">
+                <div class="card-body">
+                  <h5 class="card-title">Título de la card</h5>
+                  <p class="card-text">Descripción de la card.</p>
+                  <a href="#" class="btn btn-primary">Ver más</a>
+                </div>
+              </div>
+            </div><div class="col-md-3">
+              <div class="card">
+                <img src="./assets/media/cerveza.jpg" class="card-img-top" alt="cerveza">
+                <div class="card-body">
+                  <h5 class="card-title">Título de la card</h5>
+                  <p class="card-text">Descripción de la card.</p>
+                  <a href="#" class="btn btn-primary">Ver más</a>
+                </div>
+              </div>
+            </div><div class="col-md-3">
+              <div class="card">
+                <img src="./assets/media/chips.png" class="card-img-top" alt="chips">
+                <div class="card-body">
+                  <h5 class="card-title">Título de la card</h5>
+                  <p class="card-text">Descripción de la card.</p>
+                  <a href="#" class="btn btn-primary">Ver más</a>
+                </div>
+              </div>
+            </div><div class="col-md-3">
+              <div class="card">
+                <img src="./assets/media/Corn_Flakes.jpg" class="card-img-top" alt="Corn_Flakes">
+                <div class="card-body">
+                  <h5 class="card-title">Título de la card</h5>
+                  <p class="card-text">Descripción de la card.</p>
+                  <a href="#" class="btn btn-primary">Ver más</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <!-- Agrega tus 4 cards aquí -->
+            <div class="col-md-3">
+              <div class="card">
+                <img src="./assets/media/chips.png" class="card-img-top" alt="chips">
+                <div class="card-body">
+                  <h5 class="card-title">Título de la card</h5>
+                  <p class="card-text">Descripción de la card.</p>
+                  <a href="#" class="btn btn-primary">Ver más</a>
+                </div>
+              </div>
+            </div><div class="col-md-3">
+              <div class="card">
+                <img src="./assets/media/cerveza.jpg" class="card-img-top" alt="cerveza">
+                <div class="card-body">
+                  <h5 class="card-title">Título de la card</h5>
+                  <p class="card-text">Descripción de la card.</p>
+                  <a href="#" class="btn btn-primary">Ver más</a>
+                </div>
+              </div>
+            </div><div class="col-md-3">
+              <div class="card">
+                <img src="./assets/media/electrolit.png" class="card-img-top" alt="electrolit">
+                <div class="card-body">
+                  <h5 class="card-title">Título de la card</h5>
+                  <p class="card-text">Descripción de la card.</p>
+                  <a href="#" class="btn btn-primary">Ver más</a>
+                </div>
+              </div>
+            </div><div class="col-md-3">
+              <div class="card">
+                <img src="./assets/media/Corn_Flakes.jpg" class="card-img-top" alt="Corn_Flakes">
+                <div class="card-body">
+                  <h5 class="card-title">Título de la card</h5>
+                  <p class="card-text">Descripción de la card.</p>
+                  <a href="#" class="btn btn-primary">Ver más</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel2" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel2" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+</section>
+<!-----------------------------------------Footer----------------------------------->
+<section >
+    <footer class="footer-section">
+    <div class="m-0 row justify-content-center">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3732.710464416252!2d-103.36726888467142!3d20.681355204922067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428af154993d3c3%3A0xd195e757f1a20b9e!2sLa%20Internacional!5e0!3m2!1ses!2smx!4v1678126735808!5m2!1ses!2smx" width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+          <div class="container">
+              <div class="footer-cta pt-5 pb-5">
+                  <div class="row">
+                      <div class="col-xl-4 col-md-4 mb-30">
+                          <div class="single-cta">
+                              <i class="fas fa-map-marker-alt"></i>
+                              <div class="cta-text">
+                                  <h4>Encuentranos en:</h4>
+                                  <span>Suc. Santa Tere, Calle Garibaldi 1264a, GDL</span>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-xl-4 col-md-4 mb-30">
+                          <div class="single-cta">
+                              <i class="fas fa-phone"></i>
+                              <div class="cta-text">
+                                  <h4>Mandanos un Whatsapp</h4>
+                                  <span>33 2013 0260</span>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-xl-4 col-md-4 mb-30">
+                          <div class="single-cta">
+                              <i class="far fa-envelope-open"></i>
+                              <div class="cta-text">
+                                  <h4>Mandanos un correo</h4>
+                                  <span>mail@info.com</span>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="footer-content pt-5 pb-5">
+                  <div class="row">
+                      <div class="col-xl-4 col-lg-4 mb-50">
+                          <div class="footer-widget">
+                              <div class="footer-logo">
+                                  <a href="index.html"><img src="admin/img/Logo.jpeg" class="img-fluid" alt="logo"></a>
+                              </div>
+                              <div class="footer-text">
+                                  <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
+                                  elit,Lorem ipsum dolor sit amet.</p>
+                              </div>
+                              <div class="footer-social-icon">
+                                  <span>Siguenos</span>
+                                  <a href="https://www.facebook.com/profile.php?id=100037567522463"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                  <a href="https://www.instagram.com/la_internacional_oficial/"><i class="fab fa-instagram twitter-bg"></i></a>
+                                  <a href="#"><i class="fab fa-whatsapp google-bg"></i></a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                          <div class="footer-widget">
+                              <div class="footer-widget-heading">
+                                  <h3>Links</h3>
+                              </div>
+                              <ul>
+                                  <li><a href="index.php">Inicio</a></li>
+                                  <li><a href="#Nosotros">Nosotros</a></li>
+                                  <li><a href="#Como">Como comprar</a></li>
+                                  <li><a href="catalogo.php">Catalogo</a></li>
+                                  <li><a href="contacto.php">Contacto</a></li>
+                                  <li><a href="privasidad.php">Privacidad</a></li>
+                              </ul>
+                          </div>
+                      </div>
+                      <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                          <div class="footer-widget">
+                              <div class="footer-widget-heading">
+                                  <h3>Subscribe</h3>
+                              </div>
+                              <div class="footer-text mb-25">
+                                  <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                              </div>
+                              <div class="subscribe-form">
+                                  <form action="#">
+                                      <input type="text" placeholder="Email Address">
+                                      <button><i class="fab fa-telegram-plane"></i></button>
+                                  </form>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="copyright-area">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                          <div class="copyright-text">
+                              <p>Copyright &copy; 2018, Todos los derechos reservados <a href="index.php">La internacional</a> Pagina hecha por <a href="sistemware.com">Sistemware</a></p>
+                          </div>
+                      </div>
+                      <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                          <div class="footer-menu">
+                              <ul>
+                                  <li><a href="index.php">Inicio</a></li>
+                                  <li><a href="tyc.php">Terminos y Condiciones</a></li>
+                                  <li><a href="privacidad.php">Privacidad</a></li>
+                                  <li><a href="contacto.php">Contacto</a></li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </footer>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="internacional.js"></script>
+</body>
+</html>
+
+
+
+
+
